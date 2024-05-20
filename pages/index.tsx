@@ -30,7 +30,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
   return (
     <>
       <Head>
-        <title>Jiang jiwei ShutterShowcase</title>
+        <title>图片</title>
         <meta
           property="og:image"
           content="https://nextjsconf-pics.vercel.app/og-image.png"
@@ -100,9 +100,9 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
           className="font-semibold hover:text-white"
           rel="noreferrer"
         >
-          Jiang jiwei
+          // Jiang jiwei
         </a> */}
-        ,{' '}
+{/*         ,{' '} */}
 {/*         for the pictures. */}
         我是我，我不是我，人总会变
       </footer>
