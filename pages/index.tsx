@@ -59,10 +59,10 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
             </div>
             <Logo />
             <h1 className="mt-8 mb-4 text-base font-bold uppercase tracking-widest">
-              Jiang jiwei ShutterShowcase
+              https://vercel.com/new/aqpmzngldhs-projects/templates/next.js/image-gallery-starter
             </h1>
             <p className="max-w-[40ch] text-white/75 sm:max-w-[32ch]">
-              透过镜头，发现世界的美
+              项目开源地址如上，自行部署
             </p>
           </div>
           {images.map(({ id, public_id, format, blurDataUrl }) => (
@@ -94,16 +94,17 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
       </main>
       <footer className="p-6 text-center text-white/80 sm:p-12">
         Thank you to{' '}
-        <a
+{/*         <a
           href="https://vercel.com/cherrylover/notion-b/"
           target="_blank"
           className="font-semibold hover:text-white"
           rel="noreferrer"
         >
           Jiang jiwei
-        </a>
+        </a> */}
         ,{' '}
-        for the pictures.
+{/*         for the pictures. */}
+        我是我，我不是我，人总会变
       </footer>
     </>
   )
